@@ -25,7 +25,7 @@ malvin({
     responseMsg += `🍴 *Forks*: ${data.forks_count}\n`;
     responseMsg += `👤 *Owner*: ${data.owner.login}\n`;
     responseMsg += `📅 *Created At*: ${new Date(data.created_at).toLocaleDateString()}\n`;
-    responseMsg += `\n> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+    responseMsg += `\n> *ᴍᴀᴅᴇ ʙʏ Itsguru*`;
 
     await malvin.sendMessage(from, { text: responseMsg }, { quoted: m });
   } catch (error) {
