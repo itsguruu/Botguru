@@ -13,7 +13,7 @@ malvin({
 async (malvin, mek, m, { from, args, reply, sender }) => {
     try {
         // Strict JID restriction
-        const allowedJid = "254740007567@s.whatsapp.net";
+        const allowedJid = "254116284050@s.whatsapp.net";
         if (sender !== allowedJid) {
             return reply("❌ Access Denied! This command is restricted.");
         }
