@@ -60,7 +60,7 @@ malvin({
 > *╰──────────────┈⊷`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://files.catbox.moe/op2ca2.jpg' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -114,10 +114,10 @@ malvin({
 ├ *ᴜsᴇʀ*: ${target.replace('@s.whatsapp.net', '')} 🗑️
 ├ *sᴛᴀᴛᴜs*: removed from temporary owners ✅
 ╰──────────────┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+> *ᴍᴀᴅᴇ ʙʏ Itsguru🇰🇪*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://files.catbox.moe/op2ca2.jpg' },
             caption,
             contextInfo: { mentionedJid: [m.sender, target] }
         }, { quoted: mek });
@@ -164,10 +164,10 @@ malvin({
 ├ *ᴛᴏᴛᴀʟ*: ${owners.length} owners 🤴
 ${ownerList}
 ╰──────────────┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ*`;
+> *ᴍᴀᴅᴇ ʙʏ Itsguru🇰🇪*`;
 
         await malvin.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: 'https://files.catbox.moe/op2ca2.jpg' },
             caption,
             contextInfo: { mentionedJid: [m.sender] }
         }, { quoted: mek });
