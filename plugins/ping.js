@@ -85,9 +85,9 @@ malvin({
         const nodeVersion = process.version;
 
         // Owner & bot name
-        const ownerName = config.OWNER_NAME || 'Marisel';
-        const botName = config.BOT_NAME || '𝖒𝖆𝖗𝖎𝖘𝖊𝖑';
-        const repoLink = config.REPO || 'https://github.com/betingrich4/Mercedes';
+        const ownerName = config.OWNER_NAME || 'Guru';
+        const botName = config.BOT_NAME || 'Itaguru';
+        const repoLink = config.REPO || 'https://github.com/itsguruu/Botguru';
 
         // Final output
         const pingMsg = `
@@ -121,8 +121,8 @@ ${loadingBar}
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363299029326322@newsletter',
-                            newsletterName: `𝖒𝖆𝖗𝖎𝖘𝖊𝖑`,
+                            newsletterJid: '120363420742774856@newsletter',
+                            newsletterName: `Itsguru`,
                             serverMessageId: 143
                         }
                     }
