@@ -44,11 +44,11 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-> ᴍᴀᴅᴇ ʙʏ ᴍᴀʀɪsᴇʟ`;
+> ᴍᴀᴅᴇ ʙʏ Itsguru`;
 
         // Send image with truncated source code
         await malvin.sendMessage(from, { 
-            image: { url: config.MENU_IMAGE_URL || 'https://url.bwmxmd.online/Adams.xm472dqv.jpeg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/op2ca2.jpg' },
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -56,7 +56,7 @@ ${truncatedCode}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363299029326322@newsletter',
-                    newsletterName: '𝖒𝖆𝖗𝖎𝖘𝖊𝖑',
+                    newsletterName: 'Itsguru',
                     serverMessageId: 143
                 }
             }
