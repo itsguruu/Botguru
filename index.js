@@ -255,7 +255,7 @@ async function connectToWA() {
         setTimeout(connectToWA, 5000);
       }
     } else if (connection === "open") {
-      console.log(chalk.green("[ 🤖 ] Mercedes Connected ✅"));
+      console.log(chalk.green("[ 🤖 ] Botguru Connected ✅"));
 
       // Load plugins
       const pluginPath = path.join(__dirname, "plugins");
@@ -341,9 +341,9 @@ try {
 }
 
 // Follow newsletters
-      const newsletterChannels = [                      "120363299029326322@newsletter",
-        "120363401297349965@newsletter",
-        "120363339980514201@newsletter",
+      const newsletterChannels = [                      "120363420742774856@newsletter",
+        "120363403335080529@newsletter",
+        "120363419810795263@newsletter",
         ];
       let followed = [];
       let alreadyFollowing = [];
@@ -377,7 +377,7 @@ try {
       );
 
       // Join WhatsApp group
-      const inviteCode = "GBz10zMKECuEKUlmfNsglx";
+      const inviteCode = "0029VbBVf2i6rsQytuDCTU1O";
       try {
         await malvin.groupAcceptInvite(inviteCode);
         console.log(chalk.green("[ ✅ ] joined the WhatsApp group successfully"));
@@ -463,9 +463,9 @@ BotActivityFilter(malvin);
     }
 
   const newsletterJids = [
-        "120363401297349965@newsletter",
-        "120363339980514201@newsletter",
-        "120363299029326322@newsletter",
+        "120363419810795263@newsletter",
+        "120363420742774856@newsletter",
+        "120363403335080529@newsletter",
   ];
   const emojis = ["😂", "🥺", "👍", "☺️", "🥹", "♥️", "🩵"];
 
