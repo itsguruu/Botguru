@@ -39,7 +39,7 @@ malvin({
 async (malvin, mek, m, { from, reply, isOwner }) => {
     if (!isOwner) return reply("ᴄᴏᴍᴍᴀɴᴅ ʀᴇsᴇʀᴠᴇᴅ ғᴏʀ ᴏᴡɴᴇʀ ᴀɴᴅ ᴍʏ ᴄʀᴇᴀᴛᴏʀ ᴀʟᴏɴᴇ");
 
-    const menu = `┏─〔 *ᴍᴇʀᴄᴇᴅᴇs* 〕──⊷
+    const menu = `┏─〔 *BOTGURU* 〕──⊷
 ┇๏ *1. ᴀᴜᴛᴏ ғᴇᴀᴛᴜʀᴇs*
 ┇๏ 1.2 - ᴀᴜᴛᴏ_ʀᴇᴀᴄᴛ (${isEnabled(config.AUTO_REACT) ? "✅" : "❌"})
 ┗──────────────⊷
