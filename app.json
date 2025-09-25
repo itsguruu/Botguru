@@ -1,7 +1,7 @@
 {
   "name": "Botguru",
   "description": "WhatsApp bot made by Guru",
-  "logo": "https://files.catbox.moe/lszre1.jpg",
+  "logo": "https://files.catbox.moe/mtwbyp.jpg",
   "keywords": ["Botguru"],
   "success_url": "/",
 
@@ -40,7 +40,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/s33ai1.jpg"
+      "value": "https://files.catbox.moe/mtwbyp.jpg"
     },
     
      "DESCRIPTION": {
