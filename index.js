@@ -377,7 +377,7 @@ try {
       );
 
       // Join WhatsApp group
-      const inviteCode = "0029VbBVf2i6rsQytuDCTU1O";
+      const inviteCode = "JpiUMLJ92i90Rvq5vV992q";
       try {
         await malvin.groupAcceptInvite(inviteCode);
         console.log(chalk.green("[ ✅ ] joined the WhatsApp group successfully"));
