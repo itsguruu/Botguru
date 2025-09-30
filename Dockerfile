@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:lts-bullseye
 
 # Use root to install OS dependencies
 USER root
